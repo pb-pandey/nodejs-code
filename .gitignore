@@ -7,9 +7,6 @@
 npm-debug.log
 yarn-error.log
 
-#env file
-/environments
-
 # IDEs and editors
 .idea/
 .project
