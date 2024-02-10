@@ -1,0 +1,14 @@
+200 -- ok
+201 -- successfully created post and put
+204 No Content
+    There is no content to send for this request, but the headers may be useful. The user agent may update its cached headers for this resource with the new ones.
+400 Bad Request
+    The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
+401 Unauthorized
+    Although the HTTP standard specifies "unauthorized", semantically this response means "unauthenticated". That is, the client must authenticate itself to get the requested response.
+403 Forbidden
+    The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike 401 Unauthorized, the client's identity is known to the server.
+404 Not Found
+    The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist.
+503 Service Unavailable
+    The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded.
