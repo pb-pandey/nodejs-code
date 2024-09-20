@@ -17,7 +17,7 @@ var options = {
 /* cors error fix */
 var cors = require('cors');
 app.use(cors({
-    origin:['http://'+env.ipAddress+':4200','http://localhost:4200','https://localhost:65507','https://localhost','http://localhost:4201','http://'+env.ipAddress+':80','https://api.smilemantdm.org']
+    origin:['http://'+env.ipAddress+':4200','http://localhost:4200','https://localhost:65507','https://localhost','http://localhost:4201','http://'+env.ipAddress+':80','https://smilemantdm.org']
 }))
 app.use((req,res,next)=>{
     setTimeout(()=>{
